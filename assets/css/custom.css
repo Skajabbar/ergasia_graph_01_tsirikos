@@ -13,10 +13,7 @@ body {
 section.hero {
     background: url(../img/hero_01.jpg) no-repeat center center;
     background-size: cover;
-}
-
-.hero-text {
-    height: 100vh;
+    height: 80vh;
 }
 
 .hero-text h1 {
@@ -29,4 +26,5 @@ section.hero {
 .hero-text p {
     font-size: 2.5rem;
     letter-spacing: .15rem;
+    color: white;
 }
