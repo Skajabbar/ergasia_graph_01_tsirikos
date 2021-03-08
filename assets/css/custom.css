@@ -1,7 +1,32 @@
+.test {
+    border: 1px solid red;
+}
+
+body {
+    font-family: 'Proxima Nova Rg';
+}
+
 .bg-black {
     background-color: black !important;
 }
 
-.test {
-    border: 1px solid red;
+section.hero {
+    background: url(../img/hero_01.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.hero-text {
+    height: 100vh;
+}
+
+.hero-text h1 {
+    font-size: 5rem;
+    font-family: 'Proxima Nova Bold';
+    letter-spacing: .1rem;
+    color: white;
+}
+
+.hero-text p {
+    font-size: 2.5rem;
+    letter-spacing: .15rem;
 }
